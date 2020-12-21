@@ -1,0 +1,47 @@
+
+#main{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.ProductArea{
+column-width: 30%;
+column-count: 1;
+}
+
+
+#productimg{
+    width: 250px;
+    height: 180px;
+}
+
+#navleft{
+    float: left;
+}
+
+#navright{
+    float: right;
+}
+
+
+@media (min-width: 768px) {
+    
+    #main {
+        width:100%;
+        vertical-align:top;
+    }
+    
+    .ProductArea{
+column-width: 100%;
+column-count: 3;
+}
+    
+}
+    body {
+        background-color: grey;
+    }
+
+    
